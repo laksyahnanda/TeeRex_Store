@@ -1,0 +1,27 @@
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:1rem;
+    padding:10px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.del{
+    
+    font-weight: bold;
+    border: none;
+     color:red;
+     
+}
+
+@media screen and (max-width: 700px) {
+   .image
+    {
+    width: 70px;
+    height: 70px;
+}
+  }
